@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Погода в домі — безкоштовна терапевтична зустріч · 6 листопада</title>
+  <meta name="description" content="Безкоштовна онлайн-зустріч з Альоною Матчиною про сімейну історію, тіло та сценарії стосунків. 6 листопада, 18:00 за Києвом, 60 хвилин." />
+  <meta name="theme-color" content="#f6efe4" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="uk_UA" />
+  <meta property="og:title" content="Погода в домі — безкоштовна терапевтична зустріч" />
+  <meta property="og:description" content="Сімейна історія, тіло та сценарії стосунків. 6 листопада, 18:00 за Києвом · онлайн · 60 хвилин." />
+  <meta property="og:image" content="/assets/hero.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="/assets/hero.jpg" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Перейти до змісту</a>
+
+  <!-- Weather icon sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-sun" viewBox="0 0 48 48"><circle cx="24" cy="24" r="8"/><path d="M24 6v5M24 37v5M6 24h5M37 24h5M11.3 11.3l3.5 3.5M33.2 33.2l3.5 3.5M11.3 36.7l3.5-3.5M33.2 14.8l3.5-3.5"/></symbol>
+      <symbol id="i-partly" viewBox="0 0 48 48"><circle cx="18" cy="17" r="6"/><path d="M18 5v3M6 17h3M9.5 8.5l2 2M26.5 8.5l-2 2"/><path d="M15 38h20a7 7 0 0 0 0-14 10 10 0 0 0-19 3 5.5 5.5 0 0 0-1 11Z"/></symbol>
+      <symbol id="i-cloud" viewBox="0 0 48 48"><path d="M13 36h22a8 8 0 0 0 0-16 11 11 0 0 0-21 3.5A6.3 6.3 0 0 0 13 36Z"/></symbol>
+      <symbol id="i-rain" viewBox="0 0 48 48"><path d="M13 30h22a8 8 0 0 0 0-16 11 11 0 0 0-21 3.5A6.3 6.3 0 0 0 13 30Z"/><path d="M17 35l-2 5M25 35l-2 5M33 35l-2 5"/></symbol>
+      <linearGradient id="g-tg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#37aee2"/><stop offset="1" stop-color="#1e96c8"/></linearGradient>
+      <radialGradient id="g-ig" cx="0.3" cy="1.07" r="1.3"><stop offset="0" stop-color="#fdd56e"/><stop offset="0.18" stop-color="#fa9b3a"/><stop offset="0.45" stop-color="#e9356b"/><stop offset="0.72" stop-color="#c0329a"/><stop offset="1" stop-color="#5a4fd1"/></radialGradient>
+      <symbol id="i-tg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="url(#g-tg)"/><path fill="#fff" d="M5.4 11.8l11.6-4.5c.5-.2 1 .1.8.9l-2 9.3c-.1.6-.5.8-1 .5l-3-2.2-1.4 1.4c-.2.2-.3.3-.6.3l.2-3.1 5.6-5.1c.2-.2 0-.3-.4-.1l-6.9 4.4-3-.9c-.6-.2-.7-.6.1-.9z"/></symbol>
+      <symbol id="i-ig" viewBox="0 0 24 24"><rect width="24" height="24" rx="6.5" fill="url(#g-ig)"/><rect x="5" y="5" width="14" height="14" rx="4.2" fill="none" stroke="#fff" stroke-width="1.8"/><circle cx="12" cy="12" r="3.3" fill="none" stroke="#fff" stroke-width="1.8"/><circle cx="16.3" cy="7.7" r="1.05" fill="#fff"/></symbol>
+    </defs>
+  </svg>
+
+  <header class="topbar">
+    <a href="#top" class="brand" aria-label="Погода в домі — на початок">
+      <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true"><use href="#i-partly"/></svg>
+      <span class="brand-text">
+        <span class="brand-name">Погода в домі</span>
+        <span class="brand-sub">з Альоною Матчиною</span>
+      </span>
+    </a>
+    <nav class="nav" aria-label="Розділи сторінки">
+      <a href="#about" data-nav>Про зустріч</a>
+      <a href="#whom" data-nav>Для кого</a>
+      <a href="#program" data-nav>Програма</a>
+      <a href="#host" data-nav>Ведуча</a>
+    </nav>
+    <span class="countdown" data-countdown>
+      <span class="countdown-dot" aria-hidden="true"></span>
+      <span data-countdown-text>6 листопада · 18:00</span>
+    </span>
+    <a href="#register" class="btn btn-sm">Зареєструватися</a>
+    <span class="progress" data-progress aria-hidden="true"></span>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero-art" aria-hidden="true">
+        <img src="/assets/hero.jpg" alt="" width="1536" height="1024" fetchpriority="high" />
+      </div>
+      <div class="hero-grain" aria-hidden="true"></div>
+
+      <div class="hero-main">
+      <div class="hero-inner">
+        <p class="eyebrow load" style="--d:0">Безкоштовна відкрита терапевтична зустріч</p>
+        <h1 class="hero-title load" style="--d:1">Погода<br /><em>в&nbsp;домі</em></h1>
+        <p class="hero-sub load" style="--d:2">Сімейна історія, тіло та сценарії стосунків</p>
+        <p class="hero-lead load" style="--d:3">Що ми несемо зі своєї родини, як це відбивається на нашому стані і&nbsp;який дім ми створюємо сьогодні?</p>
+        <div class="hero-cta load" style="--d:4">
+          <a href="#register" class="btn">Забронювати місце</a>
+        </div>
+      </div>
+
+      <figure class="hero-host load" style="--d:3">
+        <img src="/assets/alona-hero.jpg" alt="Альона Матчина" width="892" height="900" fetchpriority="high" />
+        <figcaption>
+          <span class="hero-host-label">Ведуча</span>
+          <span class="hero-host-name">Альона Матчина</span>
+          <span class="hero-host-role">Лікарка, медична психологиня, гештальт-терапевтка</span>
+        </figcaption>
+      </figure>
+      </div>
+
+      <dl class="forecast load" style="--d:5" aria-label="Деталі зустрічі">
+        <div><dt>Дата</dt><dd>6 листопада, пʼятниця</dd></div>
+        <div><dt>Час</dt><dd>18:00 за Києвом</dd></div>
+        <div><dt>Формат</dt><dd>Онлайн · 60 хвилин</dd></div>
+        <div><dt>Участь</dt><dd>Безкоштовно</dd></div>
+      </dl>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+      <div class="wrap about-grid">
+        <div class="about-head reveal">
+          <p class="kicker">Про зустріч</p>
+          <h2 class="h2">Що таке дім <em>для нас?</em></h2>
+        </div>
+        <div class="about-body reveal">
+          <p class="lede">Лише місце, де ми живемо, чи ще й простір, у якому ми вчимося любити, відчувати, захищатися і будувати стосунки?</p>
+          <p>Що ми несемо з родини свого дитинства? Чому повторюємо знайомі способи взаємодії з близькими? Як емоційна атмосфера родини може відбиватися на нашому стані й тілесних реакціях на стрес?</p>
+          <p>Запрошую вас на безкоштовну годинну зустріч, присвячену сімейній системі та психосоматиці.</p>
+        </div>
+      </div>
+
+      <div class="wrap explore reveal">
+        <p class="kicker">Разом ми дослідимо</p>
+        <ul class="explore-list">
+          <li><svg aria-hidden="true"><use href="#i-sun"/></svg><span>що таке дім і родина в нашому внутрішньому світі</span></li>
+          <li><svg aria-hidden="true"><use href="#i-cloud"/></svg><span>які ролі та правила ми засвоїли в батьківській родині</span></li>
+          <li><svg aria-hidden="true"><use href="#i-rain"/></svg><span>як сімейна історія повʼязана з почуттями та тілесним досвідом</span></li>
+          <li><svg aria-hidden="true"><use href="#i-partly"/></svg><span>який емоційний клімат ми створюємо у власних стосунках</span></li>
+        </ul>
+        <p class="explore-note">На вас чекає невелика практика самопізнання і можливість по-новому поглянути на свою сімейну історію.</p>
+      </div>
+    </section>
+
+    <!-- FOR WHOM -->
+    <section class="whom section" id="whom">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="kicker">Для кого</p>
+          <h2 class="h2">Ця зустріч <em>для вас,</em> якщо…</h2>
+        </div>
+        <ol class="whom-grid">
+          <li class="card reveal"><span class="num">01</span><p>Ви помічаєте повторювані сценарії у стосунках із близькими.</p></li>
+          <li class="card reveal"><span class="num">02</span><p>Ви звикли піклуватися про всіх, але забуваєте про себе.</p></li>
+          <li class="card reveal"><span class="num">03</span><p>Ви відчуваєте напругу в сімейних стосунках і хочете краще розуміти свої тілесні реакції на стрес.</p></li>
+          <li class="card reveal"><span class="num">04</span><p>Ви — психолог чи фахівець, якому цікавий звʼязок сімейної системи та психосоматичного підходу.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- PROGRAM -->
+    <section class="program section" id="program">
+      <div class="wrap program-grid">
+        <div class="section-head sticky reveal">
+          <p class="kicker">Програма</p>
+          <h2 class="h2">Година, <em>пʼять кроків</em></h2>
+          <p class="muted">Ділитися досвідом — лише за бажанням.</p>
+        </div>
+        <ol class="timeline">
+          <li class="reveal">
+            <span class="t-dot"></span>
+            <h3>Що таке дім і родина?</h3>
+            <p>Дім як місце фізичне, емоційне і внутрішнє. Чи завжди дім — це місце, де безпечно бути собою?</p>
+          </li>
+          <li class="reveal">
+            <span class="t-dot"></span>
+            <h3>Що ми несемо зі своєї сімейної історії?</h3>
+            <p>Правила, ролі, способи виражати почуття, досвід втрат і передача між поколіннями.</p>
+          </li>
+          <li class="reveal">
+            <span class="t-dot"></span>
+            <h3>Психосоматика: як тіло переживає сімейну атмосферу</h3>
+            <p>Дихання, мʼязовий тонус, сон, самопочуття.</p>
+          </li>
+          <li class="reveal">
+            <span class="t-dot"></span>
+            <h3>Практика «Погода в домі мого роду»</h3>
+          </li>
+          <li class="reveal">
+            <span class="t-dot"></span>
+            <h3>Завершення і запрошення до подальшої роботи</h3>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+
+    <!-- HOST -->
+    <section class="host section" id="host">
+      <div class="wrap host-grid">
+        <div class="host-photo reveal">
+          <img src="/assets/alona.jpg" alt="Альона Матчина" width="846" height="790" loading="lazy" />
+        </div>
+        <div class="host-body reveal">
+          <p class="kicker">Ведуча</p>
+          <h2 class="h2">Альона <em>Матчина</em></h2>
+          <p class="host-role">Лікарка, медична психологиня, гештальт-терапевтка, супервізорка.</p>
+          <p class="host-note">Зустріч стане знайомством із темами триденки з психосоматики роду і терапевтичної групи «Погода в домі».</p>
+          <ul class="socials">
+            <li><a href="https://t.me/Alena43" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-tg"/></svg>Telegram</a></li>
+            <li><a href="https://www.instagram.com/alenamatchina/" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-ig"/></svg>Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- REGISTER -->
+    <section class="register section" id="register">
+      <div class="wrap register-grid">
+        <div class="register-copy reveal">
+          <p class="kicker">Реєстрація</p>
+          <h2 class="h2">Участь безкоштовна, <em>за попередньою реєстрацією</em></h2>
+          <ul class="register-facts">
+            <li>6 листопада, пʼятниця</li>
+            <li>18:00 за Києвом</li>
+            <li>Онлайн · 60 хвилин</li>
+          </ul>
+        </div>
+
+        <div class="signup reveal">
+          <h3 class="signup-title">Щоб зареєструватися, напишіть Альоні в особисті повідомлення</h3>
+          <p class="signup-text">Надішліть коротке повідомлення, наприклад: <q>Хочу на зустріч «Погода в домі» 6&nbsp;листопада</q>. У відповідь ви отримаєте посилання на зустріч.</p>
+          <div class="signup-links">
+            <a class="signup-btn" href="https://t.me/Alena43" target="_blank" rel="noopener">
+              <svg aria-hidden="true"><use href="#i-tg"/></svg>
+              <span><strong>Написати в Telegram</strong><small>@Alena43</small></span>
+            </a>
+            <a class="signup-btn" href="https://www.instagram.com/alenamatchina/" target="_blank" rel="noopener">
+              <svg aria-hidden="true"><use href="#i-ig"/></svg>
+              <span><strong>Написати в Instagram</strong><small>@alenamatchina</small></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="wrap reveal">
+        <p class="closing-text">Приходьте дослідити, що ви несете зі свого роду, і&nbsp;який дім хочете створювати сьогодні.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a href="#top" class="brand brand-lg">
+          <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true"><use href="#i-partly"/></svg>
+          <span class="brand-name">Погода в домі</span>
+        </a>
+        <p class="footer-tagline">Сімейна історія, тіло та сценарії стосунків</p>
+        <p class="footer-desc">Безкоштовна відкрита терапевтична зустріч з Альоною Матчиною — лікаркою, медичною психологинею, гештальт-терапевткою та супервізоркою.</p>
+      </div>
+
+      <div class="footer-col">
+        <p class="footer-head">Зустріч</p>
+        <ul class="footer-list">
+          <li>6 листопада, пʼятниця</li>
+          <li>18:00 за Києвом</li>
+          <li>Онлайн · 60 хвилин</li>
+          <li>Участь безкоштовна</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <p class="footer-head">Розділи</p>
+        <ul class="footer-list footer-links">
+          <li><a href="#about">Про зустріч</a></li>
+          <li><a href="#whom">Для кого</a></li>
+          <li><a href="#program">Програма</a></li>
+          <li><a href="#host">Ведуча</a></li>
+          <li><a href="#register">Реєстрація</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <p class="footer-head">Звʼязатися</p>
+        <ul class="footer-contacts">
+          <li><a href="https://t.me/Alena43" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-tg"/></svg><span>Telegram<small>@Alena43</small></span></a></li>
+          <li><a href="https://www.instagram.com/alenamatchina/" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-ig"/></svg><span>Instagram<small>@alenamatchina</small></span></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="wrap footer-bottom">
+      <span>© 2026 Альона Матчина · Погода в домі</span>
+      <a href="#top" class="to-top">Нагору <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+
+  <a href="#register" class="mobile-cta" data-mobile-cta>Зареєструватися · безкоштовно</a>
+
+  <script src="/script.js" defer></script>
+</body>
+</html>
