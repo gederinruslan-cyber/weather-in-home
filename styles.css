@@ -159,12 +159,12 @@ a { color: inherit; }
   width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: 45% 25%;
   border-radius: 999px 999px var(--radius) var(--radius);
   box-shadow: 0 30px 60px -30px rgba(42, 32, 27, .4);
-  filter: saturate(.6) contrast(.8) brightness(1.12) sepia(.14);
+  filter: saturate(.6) contrast(.78) brightness(1.28) sepia(.12);
 }
 .hero-host::before {
   content: ""; position: absolute; left: 0; top: 0; width: 100%; aspect-ratio: 4 / 5; z-index: 1; pointer-events: none;
   border-radius: 999px 999px var(--radius) var(--radius);
-  background: linear-gradient(180deg, rgba(251, 240, 226, .22), rgba(246, 228, 214, .14));
+  background: linear-gradient(180deg, rgba(255, 246, 234, .3), rgba(250, 236, 222, .2));
   mix-blend-mode: screen;
 }
 .hero-host figcaption { z-index: 2; }
